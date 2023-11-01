@@ -60,7 +60,6 @@ path:
 push:
 	@bash ./push.sh
 
-
 clean: down
 	@printf "$(ERROR_COLOR)==== Destroy configuration ${name}... ====$(NO_COLOR)\n"
 	@vagrant destroy
